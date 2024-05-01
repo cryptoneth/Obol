@@ -1,4 +1,4 @@
-(https://holesky.launchpad.obol.tech/
+https://holesky.launchpad.obol.tech/
 
 
 
@@ -16,10 +16,10 @@ sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyring
 
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 
-echo \ 
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \ 
-  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \ 
-  sudo tee /etc/apt/sources.list.d/docker.list > /dev/nul 
+echo \  
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \   
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \   
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/nul   
 
 
 sudo apt-get update
@@ -94,4 +94,4 @@ https://holesky.beaconcha.in/
 
 https://discord.com/invite/n6ebKsX46w?ref=blog.obol.tech
 
-https://explorer.rated.network/)
+https://explorer.rated.network/
